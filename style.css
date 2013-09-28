@@ -1,15 +1,15 @@
 body
 {
 	color: black;
-	background-color: white;
+	background-color: black;
 	font-size: 15pt;
-	font-family: "Segoe UI";
+	font-family: 'Tekton Pro';
 	text-align: center
 }
 
 div { background-color:white; text-align:left; margin:0 auto; }
 
-h1 { text-align:center; font-family:Impact; padding-top:30px;}
+h1 { text-align:center; font-family:'Cooper Std'; padding-top:30px;}
 
 ul
 {
@@ -39,7 +39,11 @@ color:white;
 background-color:black;
 }
 
-.page { padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:250px;}
+.content{ 
+background-color:black;
+text-align:center;}
+
+.page { padding-left:30px; padding-right:30px; padding-bottom:50px;}
 
 .page { background-color:white; width:75%;}
 
@@ -81,4 +85,6 @@ background-color:black;
 	transform: rotate(5deg);
 	}
 	
-.footer { text-align:center; font-variant:small-caps; padding-bottom:30px; font-weight:bold; }
+.footer { text-align:center; font-variant:small-caps; padding-top:130px; font-weight:bold; }
+
+#navlist{text-align:center;}

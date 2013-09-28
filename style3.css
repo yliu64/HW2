@@ -1,0 +1,15 @@
+body{font-size:10 pt;}
+
+h1{text-align:center;}
+
+h2{text-align:left;}
+
+.contactinfo{text-align:center;}
+
+.content{
+  width: 700px;
+  margin:0 auto;
+  text-align: left;
+}
+
+#navlist, .footer, .polaroid_right2 {display:none}
