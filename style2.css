@@ -1,17 +1,16 @@
 body
-{
-	color: black;
+{	color: black;
 	background-color: black;
-	font-size: 15pt;
-	font-family: 'Tekton Pro';
-	text-align: center
+	font-size: 11 pt;
+	font-family: 'Times New Roman';
 }
 
 div { background-color:white; text-align:left; margin:0 auto; }
 
 h1 { text-align:center; font-family:'Cooper Std'; padding-top:30px;}
 
-h2 { text-align:center; text-decoration:underline;}
+h2 { text-align:center; text-decoration:underline; font-size: 11pt;}
+
 
 a:link,a:visited
 {
@@ -29,16 +28,13 @@ color:white;
 background-color:black;
 }
 
-.footer{text-align:center;}
+.yang { 
+padding: 0px; 
+margin: 0px;
+background-color:white; 
+width:100%;
+font-size: 11pt;}
 
-.yang { padding-left:30px; padding-right:30px; padding-bottom:50px; margin-left:100px; margin-right:100px;}
+#name {font-size: 12pt}
 
-.yang { background-color:white; width:75%;}
-
-#name {text-decoration:none;}
-
-#Top {text-align:center;}
-	
-#navlist{text-align:center;}
-
-#name{font-size:30px;}
+h1, a, hr, .polaroid_left, .polaroid_right, .footer{display:none}
